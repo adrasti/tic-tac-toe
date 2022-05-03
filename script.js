@@ -207,7 +207,6 @@
         document.addEventListener('keydown', a)
         document.getElementById('ok').addEventListener('click', a);
         function a(e){
-            console.log(e)
             if(e.type == "keydown"){
                 if(e.key == 'Enter'){
                     winscreen.style.display = "none";
